@@ -15,7 +15,7 @@ void emptyInput() {
 }
 
 int main(int argc, char* argv[]) {
-	int fps = 10;
+	int fps = 20;
 
 	int opt;
 	while((opt = getopt(argc, argv, "f:")) != -1)  {
